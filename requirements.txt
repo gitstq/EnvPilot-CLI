@@ -1,0 +1,13 @@
+# EnvPilot-CLI 依赖文件
+# 核心功能零依赖，仅标准库
+# 以下为可选依赖
+
+# 加密功能（可选）
+cryptography>=3.4.8
+
+# 开发依赖
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0
